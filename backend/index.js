@@ -12,7 +12,7 @@ dotenv.config();
 const app = express();
 
 app.use(cors({
-  origin: "https://inquisitive-pudding-76dfb7.netlify.app",
+  origin: "https://your-virtualassistant.netlify.app",
   credentials: true,
 }));
 
