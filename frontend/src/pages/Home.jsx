@@ -101,7 +101,7 @@ function Home() {
       }
 
       if(type === 'weather-show') {
-        window.open(`https://www.instagram.com/search?q=weather`, '_blank');
+        window.open(`https://google.com/search?q=weather+${userInput}`, '_blank');
       }
 
       if(type === 'youtube-search' || type === 'youtube-play') {
