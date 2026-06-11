@@ -12,7 +12,7 @@ dotenv.config();
 const app = express();
 
 app.use(cors({
-  origin: ["http://localhost:5173","https://virtualassistant-563i.onrender.com"],
+  origin: "https://virtualassistant-563i.onrender.com",
   credentials: true,
 }));
 
