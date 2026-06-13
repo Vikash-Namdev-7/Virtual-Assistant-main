@@ -5,7 +5,7 @@ import { useEffect } from "react";
 export const userDataContext = createContext();
 
 const UserContext = ({ children }) => {
-  const serverUrl = "https://virtualassistant-backend-ucgx.onrender.com";
+  const serverUrl = "virtual-assistant-backend-nine.vercel.app";
   const [userData, setUserData] = useState(null);
   const [frontendImage, setFrontEndImage] = useState(null);
   const [backendImage, setBackendImage] = useState(null);
